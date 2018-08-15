@@ -1,0 +1,25 @@
+{
+  "name": "Tracker",
+  "author": "AdrianVu",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "main": {
+      "rockyjs": "src/rocky/index.js",
+      "pkjs": "src/pkjs/index.js"
+    },
+    "displayName": "Tracker",
+    "uuid": "84f6f8b9-1d4a-4ee9-b494-7ccab9cb9370",
+    "projectType": "rocky",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}
